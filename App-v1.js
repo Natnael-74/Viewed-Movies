@@ -5,7 +5,7 @@ export default function App() {
   const [watched, setWatched] = useState(tempWatchedData);
 
   return (
-    <>
+    <div>
       <NavBar>
         <Search />
         <NumResults movies={movies} />
@@ -21,7 +21,7 @@ export default function App() {
           <WatchedMoviesList watched={watched} />
         </Box>
       </Main>
-    </>
+    </div>
   );
 }
 
