@@ -1,7 +1,3 @@
-import { useEffect, useState } from "react";
-import StarRating from "./StarRating";
-
-
 
 export default function App() {
  
