@@ -5,12 +5,7 @@ export default function App() {
     setSelectedId((selectedId) => (id === selectedId ? null : id));
   }
 
-  function handleCloseMovie() {
-    setSelectedId(null);
-  }
-
-  function handleAddWatched(movie) {
-    setWatched((watched) => [...watched, movie]);
+setWatched((watched) => [...watched, movie]);
   }
 
   function handleDeleteWatched(id) {
