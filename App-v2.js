@@ -5,13 +5,7 @@ export default function App() {
     <>
       
       <Main>
-        <Box>
-        
-          {!isLoading && !error && (
-            <MovieList movies={movies} onSelectMovie={handleSelectMovie} />
-          )}
-          {error && <ErrorMessage message={error} />}
-        </Box>
+       /Box>
 
         <Box>
           {selectedId ? (
