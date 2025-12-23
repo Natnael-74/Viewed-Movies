@@ -30,17 +30,8 @@ export default function App() {
   );
 }
 
-function Loader() {
-  return <p className="loader">Loading...</p>;
-}
 
-function ErrorMessage({ message }) {
-  return (
-    <p className="error">
-     <p> {message} </p>
-    </p>
-  );
-}
+
 
 function NavBar({ children }) {
   return (
