@@ -48,7 +48,7 @@ function WatchedBox() {
         className="btn-toggle"
         onClick={() => setIsOpen2((open) => !open)}
       >
-        {isOpen2 ? "–" : "+"}
+        {isOpen2 ? "add" : "delete"}
       </button>
 
       {isOpen2 && (
