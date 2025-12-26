@@ -7,17 +7,7 @@ export default function App() {
       <Main>
        /Box>
 
-        <Box>
-      
-            <>
-              <WatchedSummary watched={watched} />
-              <WatchedMoviesList
-                watched={watched}
-                onDeleteWatched={handleDeleteWatched}
-              />
-            </>
-          )}
-        </Box>
+       
       </Main>
     </>
   );
@@ -26,14 +16,7 @@ export default function App() {
 
 
 
-function NavBar({ children }) {
-  return (
-    <nav className="nav-bar">
-      <Logo />
-      {children}
-    </nav>
-  );
-}
+
 
 
 
