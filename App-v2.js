@@ -1,17 +1,7 @@
 
 export default function App() {
 
-  return (
-    <>
-      
-      <Main>
-       /Box>
 
-       
-      </Main>
-    </>
-  );
-}
 
 
 
@@ -24,7 +14,7 @@ export default function App() {
 
 
 function Box({ children }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useRef(true);
 
   return (
     <div className="box">
