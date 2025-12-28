@@ -55,8 +55,8 @@ function WatchedBox() {
 function MovieList({ movies, onSelectMovie }) {
   return (
     <ul className="list list-movies">
-      {movies?.map((movie) => (
-        <Movie movie={movie} key={movie.imdbID} onSelectMovie={onSelectMovie} />
+      {movies?.map((movie,i) => (
+        <Movie movie={movie} key={i} onSelectMovie={onSelectMovie} />
       ))}
     </ul>
   );
