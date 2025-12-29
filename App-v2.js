@@ -19,7 +19,7 @@ function Box({ children }) {
   return (
     <div className="box">
       <button className="btn-toggle" onClick={() => setIsOpen((open) => !open)}>
-        {isOpen ? "–" : "+"}
+        {isOpen ? "open" : "close"}
       </button>
 
       {isOpen && children}
