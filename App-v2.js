@@ -27,7 +27,7 @@ function Box({ children }) {
   );
 }
 
-/*
+
 function WatchedBox() {
   const [watched, setWatched] = useState(tempWatchedData);
   const [isOpen2, setIsOpen2] = useRef(true);
@@ -50,7 +50,7 @@ function WatchedBox() {
     </div>
   );
 }
-*/
+
 
 function MovieList({ movies, onSelectMovie }) {
   return (
